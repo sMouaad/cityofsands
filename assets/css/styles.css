@@ -20,14 +20,6 @@
     font-style: italic;
 }
 
-@font-face {
-    font-family: bloxat;
-    src: url("../fonts/Bloxat-PDoE.ttf");
-}
-@font-face {
-    font-family: minecrafty;
-    src: url(../fonts/MinecraftEvenings-RBao.ttf);
-}
 header{
     display:flex;
     align-items: center;
@@ -150,7 +142,7 @@ button:hover{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-    gap:32px;
+    gap:42px;
     background-color: rgb(244, 244, 244);
     margin-right: -8px;
     margin-left:-8px;
@@ -179,4 +171,16 @@ button:hover{
     font-weight: normal;
     font-size: medium;
     margin:5px;
+}
+
+footer{
+    color:white;
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-bottom: -8px;
+    margin-top:16px;
+    padding:16px;
+    background: rgb(54,69,79);
+    background: linear-gradient(0deg, rgba(31,41,55,1) 0%,rgba(54,69,79,1) 80%);
+    text-align:center;
 }
