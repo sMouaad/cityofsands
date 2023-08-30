@@ -129,6 +129,7 @@ button:hover{
     margin-right:100px;
 }
 .square{
+    background-color: white;
     height:200px;
     width:200px;
     display:flex;
@@ -140,11 +141,13 @@ button:hover{
 }
 .information{
     padding:32px;
+    padding-top: 64px;
+    padding-bottom: 64px;
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
     gap:42px;
-    background-color: rgb(244, 244, 244);
+    background-color: rgb(233, 233, 233);
     margin-right: -8px;
     margin-left:-8px;
 }
@@ -210,7 +213,7 @@ footer{
 }
 .grey{
     padding:32px;
-    background-color: rgb(244, 244, 244);
+    background-color: rgb(233, 233, 233);
     justify-content:center;
     align-items: center;
     margin-left: -8px;
