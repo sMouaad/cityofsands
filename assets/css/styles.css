@@ -161,6 +161,7 @@ button:hover{
 
 .square-container{
     text-align: center;
+    font-size: large;
     font-family: minecraft;
     font-weight: bold;
     display:flex;
@@ -173,4 +174,9 @@ button:hover{
 }
 .steve{
     margin-top:auto;
+}
+.square-container p{
+    font-weight: normal;
+    font-size: medium;
+    margin:5px;
 }
