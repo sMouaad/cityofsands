@@ -90,6 +90,7 @@ button{
     color:white;
     font-family:minecraft;
     font-weight:bold;
+    border: solid #01793b;
 }
 button:hover{
     background: #01793b;
@@ -178,9 +179,49 @@ footer{
     margin-left:-8px;
     margin-right:-8px;
     margin-bottom: -8px;
-    margin-top:16px;
-    padding:16px;
+    padding:24px;
     background: rgb(54,69,79);
     background: linear-gradient(0deg, rgba(31,41,55,1) 0%,rgba(54,69,79,1) 80%);
     text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.whitelist{
+    background-color: #008D45;
+    display:flex;
+    border-radius: 24px;
+    justify-content: space-between;
+    gap:16px;
+    padding:32px;
+    padding-left:86px;
+    padding-right:86px;
+    width:800px;
+    align-items:center;
+}
+.column-flex-container{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size:larger;
+}
+.whitelist p{
+    margin:0px;
+    font-weight: normal;
+    font-size: medium;
+}
+.grey{
+    padding:32px;
+    background-color: rgb(244, 244, 244);
+    justify-content:center;
+    align-items: center;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 16px;
+    color:white;
+    font-family: minecraft,helvetica,sans-serif;
+    padding-top: 108px;
+    padding-bottom:108px;
+}
+.whitelist button{
+    margin:0px;
+    border:solid white
 }
