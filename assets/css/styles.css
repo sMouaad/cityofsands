@@ -1,3 +1,33 @@
+@font-face {
+    font-family: minecraft;
+    src: url("../fonts/MinecraftRegular-Bmg3.otf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: minecraft;
+    src: url("../fonts/MinecraftBold-nMK1.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: minecraft;
+    src: url("../fonts/MinecraftBoldItalic-1y1e.otf");
+    font-style: italic;
+    font-weight: bold;
+}
+@font-face {
+    font-family: minecraft;
+    src: url("../fonts/MinecraftItalic-R8Mo.otf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: bloxat;
+    src: url("../fonts/Bloxat-PDoE.ttf");
+}
+@font-face {
+    font-family: minecrafty;
+    src: url(../fonts/MinecraftEvenings-RBao.ttf);
+}
 header{
     display:flex;
     align-items: center;
@@ -13,7 +43,7 @@ background: linear-gradient(0deg, rgba(31,41,55,1) 0%,rgba(54,69,79,1) 80%);
     margin:-8px;
     margin-bottom:initial;
     padding:8px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: minecraft, Helvetica, sans-serif;
 }
 .ruby{
     width:100px;
@@ -37,7 +67,6 @@ a{
 }
 .main-text-container{
     flex:1;
-    padding:80px;
 }
 .main-text-container p{
     margin:8px;
@@ -45,9 +74,7 @@ a{
     font-size:18px;
 }
 .flex-container{
-    padding:100px;
-    padding-top: 0px;
-    padding-bottom:0px;
+    padding:0px;
     display:flex;
     align-items: center;
 }
@@ -59,17 +86,91 @@ a{
 button{
     margin:8px;
     margin-top: 0px;
-    background-color: #FFD700;
+    background: #008D45;
+    background: linear-gradient(0deg, #01793b 50%,#008D45 0%);
     padding:8px;
-    padding-left:16px;
-    padding-right: 16px;
+    padding-left:32px;
+    padding-right: 32px;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 15px;
     font-size: 16px;
     font-weight: bolder;
+    color:white;
+    font-family:minecraft;
+    font-weight:bold;
 }
 button:hover{
-    background-color: #ebc801;
+    background: #01793b;
+    background: linear-gradient(0deg, #016933 50%,#007d3d 0%);
     cursor:pointer;
 
+}
+.quote-container{
+    display:flex;
+    align-items:center;
+    margin-top: 48px;
+    justify-content:space-evenly;
+    font-size: 32px;
+}
+.quote{
+    flex-shrink:200;
+    margin-left:100px;
+    font-family: minecraft, Helvetica, sans-serif;
+    font-style: italic;
+}
+.who{
+    margin-top:8px;
+    font-style: normal;
+    font-size:24px;
+    text-align:right;
+    font-weight:bold;
+    
+}
+
+.arrow{
+    flex:auto;
+    min-width: 0px;
+}
+.container-flex{
+    margin-left:100px;
+    margin-right:100px;
+}
+.square{
+    height:200px;
+    width:200px;
+    display:flex;
+    flex-direction: column;
+    border:solid #01793b;
+    border-radius: 25px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+.information{
+    padding:32px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:32px;
+    background-color: rgb(244, 244, 244);
+    margin-right: -8px;
+    margin-left:-8px;
+}
+.pixelized{
+    image-rendering: pixelated;
+}
+
+.square-container{
+    text-align: center;
+    font-family: minecraft;
+    font-weight: bold;
+    display:flex;
+    flex-direction:column;
+    flex-shrink: 0;
+    max-width: 200px;
+}
+.gif{
+    align-self: center;
+}
+.steve{
+    margin-top:auto;
 }
