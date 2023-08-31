@@ -58,6 +58,8 @@ a{
     margin-bottom: 8px;
 }
 .main-text-container{
+    margin-top: 50px;
+    margin-bottom:50px;
     flex:1;
 }
 .main-text-container p{
