@@ -73,6 +73,7 @@ footer{
     font-family:Arial, Helvetica, sans-serif;
 }
 table {
+    font-family: minecraft;
     border-collapse: collapse;
     border: 2px solid rgb(200,200,200);
     letter-spacing: 1px;
@@ -110,6 +111,14 @@ table {
     align-items: center;
 }
 .player{
+    border:solid 1px black;
     height:25px;
     width: auto;
+}
+.ruby{
+    height:40px;
+    width: auto;
+}
+.banner{
+    width:100px;
 }
